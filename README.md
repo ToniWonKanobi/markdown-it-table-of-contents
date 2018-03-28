@@ -1,3 +1,7 @@
+This is a fork that places a `<h4>Table of Contents</h4>` within in the `<div class="table-of-contents">`.
+
+***
+
 # markdown-it-table-of-contents
 A table of contents plugin for Markdown-it. Based on https://github.com/samchrisinger/markdown-it-toc but
 simpler, a bit more customizable and with a default slugifier that matches that of https://www.npmjs.com/package/markdown-it-anchor.
