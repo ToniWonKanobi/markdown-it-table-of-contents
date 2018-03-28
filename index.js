@@ -55,7 +55,7 @@ module.exports = function(md, options) {
   }
 
   md.renderer.rules.toc_open = function(tokens, index) {
-    return '<div class="' + options.containerClass + '">';
+    return '<div class="' + options.containerClass + '"><h4>Table of Contents</h4>';
   };
 
   md.renderer.rules.toc_close = function(tokens, index) {
